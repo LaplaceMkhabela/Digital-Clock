@@ -1,0 +1,28 @@
+.date{
+    font-weight: bold;
+    background: linear-gradient(to right,#ff1bfb 0%,#1e2fe1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#day{
+    color: #ff1bfb;
+}
+
+#time{
+    font-weight: bold;
+    background: linear-gradient(to right,#ceb50e 0%,#ee039f 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.card{
+    background-color: #fffdfd11;
+    padding: 30px;
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 10px rgba(255, 4, 159, 0.358);
+    margin: 30px 0;
+    width: 100%;
+}
