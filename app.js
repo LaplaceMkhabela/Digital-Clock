@@ -11,7 +11,7 @@ function clock() {
     //date
     let month = dt.toLocaleString('en', { month: 'long' });
     let weekDay = dt.toLocaleString('en', { weekday: 'long' });
-    let day = dt.getDay();
+    let day = dt.getDate();
     let year = dt.getFullYear();
 
     document.getElementById('time').innerText = `${h} : ${m} : ${s}`
