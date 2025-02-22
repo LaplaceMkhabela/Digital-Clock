@@ -15,7 +15,7 @@ function clock() {
     let year = dt.getFullYear();
 
     document.getElementById('time').innerText = `${h} : ${m} : ${s}`
-    document.getElementById('date').innerText = `${day} ${month} ${yeargi}` 
+    document.getElementById('date').innerText = `${day} ${month} ${year}` 
     document.getElementById('day').innerText = `${weekDay}`
 }
 
